@@ -1,6 +1,8 @@
 public class RemoveDuplicate {
 
     public static int removeDupli(int [] num){
+
+
         int i=0;
         for (int j=1;j<num.length;j++){
             if (num[i] != num[j]){
