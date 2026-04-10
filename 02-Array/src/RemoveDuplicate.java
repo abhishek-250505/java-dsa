@@ -1,13 +1,14 @@
 public class RemoveDuplicate {
 
     public static int removeDupli(int [] num){
-
-
         int i=0;
-        for (int j=1;j<num.length;j++){
+        int j=1;
+        while (j<num.length){
             if (num[i] != num[j]){
                 i++;
                 num[i] =num[j];
+            }else {
+                j++;
             }
         }
         return i+1;
@@ -17,8 +18,7 @@ public class RemoveDuplicate {
 //        int [] num ={0,1,1,2};
 
         int k = removeDupli(num);
-
-        System.out.println("Unique count: " + k);
+        System.out.println("total number : " + k);
 
         for(int i = 0; i < k; i++){
             System.out.print(num[i] + " ");
