@@ -2,7 +2,8 @@ import java.util.*;
 
 public class SubArray {
     public static void main(String[] args) {
-        int[] arr = {1, 1, 1};
+//        int[] arr = {1, 1, 1};
+        int []arr ={1,3,5};
         int k = 2;
 
         HashMap<Integer, Integer> map = new HashMap<>();
