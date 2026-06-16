@@ -28,3 +28,6 @@ public class MinimumSortedArray {
         System.out.println(findMin(nums));
     }
 }
+
+//brute force ---> using linear search , TC:-o(n)
+//optimal approach ---> using binary search ,TC:-O(logn)
